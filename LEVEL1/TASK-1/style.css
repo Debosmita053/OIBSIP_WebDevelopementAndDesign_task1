@@ -44,7 +44,6 @@ h1{
 p{
     font-size: 15px;
     line-height: 20px;
-    margin-bottom: 16px;
     color: #777;
 }
 
@@ -57,4 +56,35 @@ p{
    cursor: pointer;
    font-weight: bold;
   
+}
+
+.header-text button{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.line-1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+}
+
+.line-2{
+    height: 2px;
+    width: 80px;
+    display: inline-block;
+    background-color: #f67c92;
+}
+
+.line-3{
+    height: 2px;
+    width: 60px;
+    display: inline-block;
+    background-color: #f67c92;
+    
+}
+
+.line{
+    line-height: 10px;
 }
