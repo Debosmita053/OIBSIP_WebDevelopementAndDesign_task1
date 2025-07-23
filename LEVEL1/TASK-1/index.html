@@ -33,13 +33,22 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">Courses</a></li>
-            <li><a href="#">Offer</a></li>
+            <li><a href="#">Offers</a></li>
             <li><a href="#">Contact Us</a></li>
         <ul>
             <img src="images/menu.png" class="menu-btn">
     </nav>
 </body>
 <script>
-    
+    let sidenav=document.querySelector(".sideNav");
+    let menubtn=document.querySelector(".menu-btn");
+
+    sidenav.style.right="-350px";
+    menubtn.addEventListener("click",function(){
+        if(sidenav.style.right == "-350px")
+            sidenav.style.right="0px";
+        else
+            sidenav.style.right="-350px"
+    })
 </script>
 </html>
