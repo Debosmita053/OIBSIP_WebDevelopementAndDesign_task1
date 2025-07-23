@@ -42,7 +42,7 @@ h1{
 }
 
 p{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
     color: #777;
 }
@@ -121,5 +121,43 @@ nav ul li{
     z-index: 2;
 }
 
- 
+.about{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+.about-left-column img{
+
+    width: 100%;
+}
+
+.about-left-column{
+    flex-basis: 50%;
+}
+
+.about-right-column{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text{
+
+    display: inline-block;
+    margin-right: 30px;
+    max-width: 850px;
+}
+
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.about-text h3{
+   
+    font-size: 25px;
+    font-style: italic;
+}
 
