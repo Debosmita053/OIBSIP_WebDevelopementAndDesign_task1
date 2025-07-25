@@ -197,3 +197,38 @@ nav ul li{
     justify-content: center;
 }
 
+
+.courses{
+    padding: 0 100px;
+}
+
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course-left-column{
+    flex-basis: 50%;
+}
+
+.course-right-column{
+    flex-basis: 50%;
+}
+
+.course-right-column img{
+    width: 100%;
+}
+
+.course-text{
+    margin-left: 30px;
+    display: inline-block;
+    max-width: 450px;
+}
+
+.course-text button{
+    margin: 30px 0;
+}
+
+
+
