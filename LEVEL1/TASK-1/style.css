@@ -306,3 +306,54 @@ form input {
     margin-left: 70px;
 }
 
+.social-icons{
+    position: fixed;
+    top: 90%;
+    right: 0;
+    z-index: 3;
+}
+
+.social-icons img{
+    width: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+/* responsiveness */
+
+@media  only screen and (max-width:770px){
+    
+    #header{
+        background-image: none;
+
+    }
+
+    .container {
+    margin: 0 50px;
+    }
+
+    .logo {
+        margin-top: 25px;
+        width: 50px;
+    }
+
+    .header-text {
+        max-width: 350px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+
+}
