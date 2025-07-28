@@ -349,11 +349,26 @@ form input {
     }
 
     p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 20px;
     color: #000000;
 }
+.common-button {
+    padding: 10px;
+    
+}
 
+.menu-btn {  
+    right: 20px;
+    width: 30px;
+    
+}
+
+.social-icons img{
+    width: 15px;
+    margin: 0 2px;
+    
+}
 
 
 }
