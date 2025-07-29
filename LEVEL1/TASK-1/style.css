@@ -380,15 +380,52 @@ form input {
     flex-basis: 100%;
 }
 
-.course-left-column, .course-right-column {
+.course-left-column {
     flex-basis: 100%;
 }
 
+.course-right-column {
+    flex-basis: 100%;
+}
+
+.courses {
+    padding: 0 20px; /* Reduce padding on smaller screens */
+}
+
+.course-row {
+    flex-direction: column; /* Stack course columns vertically */
+}
+
 .course-text {
-   
-    display: inline-block;
-   
-    
+    margin: 20px 0;
+    max-width: 100%; /* Allow full width */
+    text-align: center; /* Optional: center align text */
+}
+
+.course-right-column img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Add space between text and image */
+}
+
+.feature-column {
+    flex-basis:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact{
+
+    padding: 30px 0;
+}
+
+.contact-btn button{
+    flex-basis:100%;
+    margin-top: 10px;
+}
+
+.contact-left-column, .contact-right-column {
+    flex-basis: 100%;
 }
 
 }
