@@ -108,7 +108,7 @@ nav ul li a {
 }
 
 .about, .offers {
-    padding: 100px 0;
+    padding: 30px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -327,7 +327,7 @@ form input {
     
     #header{
         background-image: none;
-
+        height: 70vh;
     }
 
     .container {
@@ -370,5 +370,25 @@ form input {
     
 }
 
+.about, .offers {
+    padding:none;
+   
+}
+
+
+.about-left-column, .about-right-column {
+    flex-basis: 100%;
+}
+
+.course-left-column, .course-right-column {
+    flex-basis: 100%;
+}
+
+.course-text {
+   
+    display: inline-block;
+   
+    
+}
 
 }
