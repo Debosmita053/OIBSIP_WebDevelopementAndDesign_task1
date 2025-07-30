@@ -5,6 +5,7 @@
     overflow-x: hidden;
 }
 
+
 #header {
     height: 100vh;
     width: 100%;
@@ -106,8 +107,9 @@ nav ul li a {
     width: 50px;
     z-index: 2;
 }
+/* about */
 
-.about, .offers {
+#about, #offers {
     padding: 30px 0;
     display: flex;
     align-items: center;
@@ -145,7 +147,8 @@ nav ul li a {
     font-size: 25px;
 }
 
-.features {
+/* features */
+#features {
     padding: 50px 0;
 }
 
@@ -179,7 +182,8 @@ nav ul li a {
     justify-content: center;
 }
 
-.courses {
+/* courses */
+#courses {
     padding: 0 100px;
 }
 
@@ -206,6 +210,7 @@ nav ul li a {
 .course-text, .about-text button {
     margin: 30px 0;
 }
+/* contact */
 
 .contact-row {
     display: flex;
@@ -246,8 +251,9 @@ form input {
 .contact-btn button {
     flex-basis: 45%;
 }
+/* footer */
 
-.footer {
+#footer {
     padding-top: 5%;
     background-color: #fba6b5;
     height: 30vh;
@@ -308,7 +314,7 @@ form input {
 
 .social-icons{
     position: fixed;
-    top: 90%;
+    top: 95%;
     right: 0;
     z-index: 3;
 }
@@ -327,7 +333,7 @@ form input {
     
     #header{
         background-image: none;
-        height: 70vh;
+        height: 100vh;
     }
 
     .container {
@@ -388,7 +394,7 @@ form input {
     flex-basis: 100%;
 }
 
-.courses {
+#courses {
     padding: 0 20px; /* Reduce padding on smaller screens */
 }
 
@@ -414,7 +420,7 @@ form input {
     margin-bottom: 20px;
 }
 
-.contact{
+#contact{
 
     padding: 30px 0;
 }
@@ -428,16 +434,10 @@ form input {
     flex-basis: 100%;
 }
 
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* Horizontally centers children */
-    justify-content: center; /* Vertically centers content if there's extra space */
-    text-align: center;     /* Centers inline text elements */
-    padding: 20px;
+.footer{
+    height: 100%;
+   
 }
-
 
 .footer-left-column {
     flex-basis: 100%;
@@ -448,48 +448,24 @@ form input {
     flex-basis: 100%;
 }
 
-.footer-row {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Add this */
-    width: 100%;
-    text-align: center;
-
-
-}
-
-.footer-links {
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.link-title small {
-    line-height: 25px;
-    font-size: 14px;
-}
-
-.footer-info {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.footer-info img {
-    margin: 10px 0;
-    width: 80px;
-}
-
-.copyright-text {
-    font-size: 16px;
-    line-height: 22px;
-}
 
 .link-title {
     flex-basis: 50%;
     margin-bottom: 20px;
 }
 
+.copyright-text{
+    flex-basis: 100%;
+    margin:10px 50px;
+   
+}
+
+.footer-logo{
+    flex-basis: 100%;
+}
+
+.sideNav {
+    width: 200px;
+    
+}
 }
