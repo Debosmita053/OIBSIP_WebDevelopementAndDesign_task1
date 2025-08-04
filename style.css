@@ -435,7 +435,9 @@ form input {
 }
 
 #footer{
-    height: 50vh;
+     padding: 30px 20px;
+        background-color: #fba6b5;
+        min-height: 300px;
    
 }
 
